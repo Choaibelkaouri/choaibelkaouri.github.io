@@ -4,23 +4,16 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Project One",
-    description: "A full-stack web application built with React and Node.js. Features include user authentication, real-time updates, and responsive design.",
-    tags: ["React", "Node.js", "MySQL"],
+    title: "Personal Portfolio Website",
+    description: "A simple portfolio to showcase my profile, skills, and projects. Built with clean design and responsive layout.",
+    tags: ["HTML", "CSS", "JavaScript"],
     github: "#",
     demo: "#"
   },
   {
-    title: "Project Two",
-    description: "Modern e-commerce platform with shopping cart, payment integration, and admin dashboard for inventory management.",
-    tags: ["JavaScript", "Express", "Bootstrap"],
-    github: "#",
-    demo: "#"
-  },
-  {
-    title: "Project Three",
-    description: "Task management application with drag-and-drop functionality, team collaboration features, and project tracking.",
-    tags: ["React", "Tailwind CSS", "PHP"],
+    title: "Task Manager Web App",
+    description: "A small app to manage tasks (add, edit, delete, mark as done). Features include task filtering and local storage persistence.",
+    tags: ["HTML", "CSS", "JavaScript"],
     github: "#",
     demo: "#"
   }
@@ -38,7 +31,7 @@ export const Projects = () => {
           Here are some of my recent projects. You can edit these details to showcase your actual work.
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {projects.map((project, index) => (
             <Card 
               key={index}

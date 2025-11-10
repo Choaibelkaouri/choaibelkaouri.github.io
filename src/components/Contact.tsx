@@ -24,10 +24,10 @@ export const Contact = () => {
               <div className="text-center sm:text-left flex-grow">
                 <h3 className="font-semibold mb-1">Email</h3>
                 <a 
-                  href="mailto:your.email@example.com" 
+                  href="mailto:youremail@example.com" 
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  your.email@example.com
+                  youremail@example.com
                 </a>
               </div>
               <Button 
@@ -35,7 +35,7 @@ export const Contact = () => {
                 className="border-primary text-primary hover:bg-primary/10"
                 asChild
               >
-                <a href="mailto:your.email@example.com">
+                <a href="mailto:youremail@example.com">
                   Send Email
                 </a>
               </Button>
@@ -49,7 +49,7 @@ export const Contact = () => {
                   className="border-primary text-primary hover:bg-primary/10 flex-1"
                   asChild
                 >
-                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/choaibelk13" target="_blank" rel="noopener noreferrer">
                     <Github className="w-5 h-5 mr-2" />
                     GitHub
                   </a>
@@ -59,7 +59,7 @@ export const Contact = () => {
                   className="border-primary text-primary hover:bg-primary/10 flex-1"
                   asChild
                 >
-                  <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="w-5 h-5 mr-2" />
                     LinkedIn
                   </a>

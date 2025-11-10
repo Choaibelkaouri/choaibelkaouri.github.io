@@ -26,8 +26,8 @@ export const Hero = () => {
         </p>
         
         <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "0.4s" }}>
-          Passionate about building complete web applications from scratch, learning modern technologies, 
-          and preparing for a professional career as a web developer.
+          I am a web development student passionate about building both frontend and backend for modern web applications. 
+          I love learning by creating personal projects and exploring new technologies.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{ animationDelay: "0.6s" }}>
