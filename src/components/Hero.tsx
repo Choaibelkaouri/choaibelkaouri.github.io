@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { ArrowDown } from "lucide-react";
 
 export const Hero = () => {
@@ -17,6 +18,13 @@ export const Hero = () => {
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "1s" }} />
       
       <div className="relative z-10 text-center max-w-4xl mx-auto animate-fade-in">
+        <div className="flex justify-center mb-8 animate-scale-in">
+          <Avatar className="h-32 w-32 border-4 border-primary/50 shadow-lg shadow-primary/20">
+            <AvatarImage src="/placeholder.svg" alt="CHOAIB EL KAOURI" />
+            <AvatarFallback className="text-2xl bg-primary/20 text-primary">CE</AvatarFallback>
+          </Avatar>
+        </div>
+        
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 animate-slide-in-left">
           Hi, I'm <span className="gradient-text">CHOAIB EL KAOURI</span>
         </h1>

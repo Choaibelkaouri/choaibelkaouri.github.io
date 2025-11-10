@@ -24,10 +24,10 @@ export const Contact = () => {
               <div className="text-center sm:text-left flex-grow">
                 <h3 className="font-semibold mb-1">Email</h3>
                 <a 
-                  href="mailto:youremail@example.com" 
+                  href="mailto:choaibdev@gmail.com" 
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  youremail@example.com
+                  choaibdev@gmail.com
                 </a>
               </div>
               <Button 
@@ -35,7 +35,7 @@ export const Contact = () => {
                 className="border-primary text-primary hover:bg-primary/10"
                 asChild
               >
-                <a href="mailto:youremail@example.com">
+                <a href="mailto:choaibdev@gmail.com">
                   Send Email
                 </a>
               </Button>
@@ -59,7 +59,7 @@ export const Contact = () => {
                   className="border-primary text-primary hover:bg-primary/10 flex-1"
                   asChild
                 >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/choaib-elk" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="w-5 h-5 mr-2" />
                     LinkedIn
                   </a>
